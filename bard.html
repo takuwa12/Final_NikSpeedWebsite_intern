@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>payement</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bard.css">
+    </head>
+    <body>
+    <form action="bard.php" method="post">
+        <input type="text" name="cardholder_name" placeholder="Cardholder Name">
+        <input type="number" name="card_number" placeholder="Card Number">
+        <input type="month" name="expiration_month" placeholder="Expiration Month">
+        <input type="year" name="expiration_year" placeholder="Expiration Year">
+        <input type="cvv" name="cvv" placeholder="CVV">
+        <button type="submit">Pay</button>
+        <button type="button" onclick="cancelPayment()">Cancel</button>
+  </form>
+</body>
+  </html>
+  

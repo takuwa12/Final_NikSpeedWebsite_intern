@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: url("pic.jpg");
+  }
+  body{
+    font-family: verdana;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    background-color: purple;
+    width: 100%;
+    color: white;
+}
+header{
+    height: 10vh;
+}
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left:10%;
+}
+
+
+.nav{
+    position:absolute;
+    width:100%;
+}
+.nav a{
+    position: relative;
+    left:30%;
+    top:20px;
+    color:white;
+    text-decoration :none;
+    margin-right:20px;
+    
+}
+.nav a:hover{
+    color: red;
+    transition: 0.5s;
+
+}
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

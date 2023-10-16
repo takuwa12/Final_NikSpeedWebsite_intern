@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Money Payment</title>
+  <link rel="stylesheet" type="text/css" href="stylepay.css">
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h2>NIK SPEED</h2> 
+    <div class="nav">
+      <a href="foots.html">HOME</a>
+      <a href="Aboutus1.html">ABOUT US</a>
+      <a href="contactNew.html">CONTACT US</a>
+      <a href="google.html">LOCATION</a>
+      <a href="Gallery.html">GALLERY</a>
+      <a href="payment.html">DONATE</a>
+      <a href="Newlogin.html">LOGIN</a>
+    </div>
+  </div>             
+</header>
+
+<div class="container">
+  <h1>Mobile Money Payment</h1>
+  <form action="payment.php" method="post">
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+    <label for="amount"> Donation Amount:</label>
+    <input type="text" id="amount" name="amount" placeholder="Enter payment amount" required>
+
+    <button type="submit">Make Payment</button>
+  </form>
+</div>
+
+</body>
+</html>

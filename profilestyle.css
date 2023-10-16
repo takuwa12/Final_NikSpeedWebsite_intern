@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; /* Set the minimum height to the full viewport height */
+}
+
+.profiles-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add some space between the profile containers */
+    flex-wrap: wrap; /* Allow containers to wrap to the next line if the screen is narrow */
+    max-width: 1200px; /* Set the maximum width of the container */
+}
+
+.profile-container {
+    max-width: 300px; /* Adjust the width based on your design */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-info h1 {
+    margin: 10px 0;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    background-color: #0056b3;
+}

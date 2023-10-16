@@ -1,0 +1,52 @@
+body{
+    font-family: verdana;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    position: absolute;
+    background-color: purple;
+    width: 100%;
+    color: white;
+}
+header{
+    height: 10vh;
+}
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left:10%;
+}
+
+
+.nav{
+    position:absolute;
+    width:100%;
+}
+.nav a{
+    position: relative;
+    left:30%;
+    top:20px;
+    color:white;
+    text-decoration :none;
+    margin-right:20px;
+    opacity: 0.9;
+    
+}
+.nav a:hover{
+    
+    transition: 0.5s;
+   
+
+}
+.nav a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.container{
+    margin-top: 10%;
+}

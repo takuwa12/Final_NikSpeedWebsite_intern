@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Location</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="google.css">
+</head>
+<body>
+    <header>
+        <h2>NIK SPEED</h2>    
+        <div class="nav">
+            <a href="foots.html">HOME</a>
+            <a href="Aboutus1.html">ABOUT US</a>
+            <a href="contactNew.html">CONTACT US</a>
+            <a href="google.html">LOCATION</a>
+            <a href="Gallery.html">GALLERY</a>
+            <a href="payment.html">DONATE</a>
+            <a href="Newlogin.html">LOGIN</a>          
+        </div>                
+    </header>
+   
+    <h1>Nik speed   Location</h1>
+    <div id="map" style="height: 400px; margin-top: 10%;"></div>
+    
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+  // latitude and longitude of the nik speed
+  const businessLatitude = 0.33256274461746216;
+  const businessLongitude =32.55467224121094;
+
+  const map = L.map("map").setView([businessLatitude, businessLongitude], 15);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+
+  const businessMarker = L.marker([businessLatitude, businessLongitude]).addTo(map);
+  businessMarker.bindPopup("NIK SPEED INSTITUTE").openPopup();
+});
+
+    </script>
+  
+</body>
+</html>

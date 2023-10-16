@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+    background-color: #f7f7f7;
+}
+header{
+   /* position: absolute;*/
+    background-color: purple;
+    width: 100%;
+    color: white;
+    
+}
+header{
+    height: 10vh;
+}
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left:10%;
+}
+
+.nav{
+    position:absolute;
+    width:100%;
+}
+.nav a{
+    position: relative;
+    left:30%;
+    top:20px;
+    color:white;
+    text-decoration :none;
+    margin-right:20px;
+    
+}
+.nav a:hover{
+    color: red;
+    transition: 0.5s;
+
+}
+
+.container {    
+    max-width: 400px;
+    margin:  auto;
+    padding: 20px;
+    background-color: #fff;    
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #f0b400;
+}
+
+

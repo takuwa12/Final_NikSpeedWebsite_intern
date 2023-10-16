@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>visa</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="visa.css">
+  </head>
+  <body>
+    <div class="container">
+        <h6>Checkout</h6>
+        <span>x</span>
+        <h1>Payment method</h1>
+        <form action="">
+            <label for="country">country
+                <select name="country" id="country">
+                    <option value="Uganda">Uganda</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="USA">USA</option>
+                </select>
+            </label>
+            <label class="cardno"> Card Number
+                <input type="text" name="cardno" id="cardno" maxlength="19" onkeypress="cardspace()">
+            </label>
+            <div class="float">
+                <label for="validtil">Valid til
+                    <input type="text" name="validtil" id="validtil" maxlength="7" onkeypress="addslashes()">
+                </label>
+                <label for="cvv">cvv
+                    <input type="text" name="cvv" id="cvv" maxlength="3">
+                </label>
+            </div>
+                <label for="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <p>Payment address is the same as the delivery address</p>
+                </label> 
+                <button>pay 30$</button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="visa.js"></script>
+  </body>
+  </html>

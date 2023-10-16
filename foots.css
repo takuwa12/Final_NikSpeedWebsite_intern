@@ -1,0 +1,130 @@
+body{
+    font-family: verdana;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    background-color: purple;
+    width: 100%;
+    color: white;
+}
+header{
+    height: 10vh;
+}
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left:10%;
+}
+footer{
+    position:absolute;
+    width: 100%;
+    
+    background-color: green;
+    bottom: 0;
+}
+
+.nav{
+    position:absolute;
+    width:100%;
+}
+.nav a{
+    position: relative;
+    left:30%;
+    top:20px;
+    color:white;
+    text-decoration :none;
+    margin-right:20px;
+    opacity: 0.9;
+    
+}
+.nav a:hover{
+    
+    transition: 0.5s;
+   
+
+}
+.nav a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.footerContainer{
+    width: 100%;
+    padding: 20px 30px 0px;
+    bottom:0;
+}
+.socialIcons{
+    display:flex;
+    justify-content: center;
+
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 20px;
+    color: purple;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: purple;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 5px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.footerNav ul li a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    color: red;
+    opacity:1;
+}
+.footerBottom{
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media(max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
